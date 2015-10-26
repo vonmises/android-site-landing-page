@@ -2,5 +2,10 @@ html, body { height: 100%; }
 
 body {
     font-family: 'Poiret One', sans-serif;
+}
+
+.main {
+    background: url("../images/devices.jpg") no-repeat center fixed;
     background-size: cover;
+    height: 100%;
 }
