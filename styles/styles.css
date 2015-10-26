@@ -9,3 +9,19 @@ body {
     background-size: cover;
     height: 100%;
 }
+
+form {
+    width: 50%;
+    margin: 40%;
+}
+
+input {
+    width: 50%;
+}
+
+.text_input {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px black;
+}
