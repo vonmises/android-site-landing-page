@@ -20,8 +20,20 @@ input {
 }
 
 .text_input {
-    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     color: white;
     text-shadow: 1px 1px black;
+}
+
+.text_input:invalid {
+  background: hsla(0, 90%, 70%, 0.5);
+}
+
+.text_input:valid {
+  background: hsla(0, 0, 0, 0.5);
+}
+
+
+.btn-default {
+    border-color: black;
 }
